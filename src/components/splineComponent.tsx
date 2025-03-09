@@ -4,9 +4,9 @@ import Spline from "@splinetool/react-spline";
 
 const SplineComponent = () => {
     return (
-      <div className="w-full h-[700px] md:w-[500px] md:h-[800px] flex items-center justify-center">
+      <div className="w-full h-[700px] md:w-full md:h-[800px] flex items-center justify-center absolute inset-0 -z-10">
         <Spline
-          scene="https://prod.spline.design/xLE9QFvyhGkPg3I7/scene.splinecode" 
+          scene="https://prod.spline.design/NarSvwXEDCg8lD9R/scene.splinecode" 
         />
       </div>
     );

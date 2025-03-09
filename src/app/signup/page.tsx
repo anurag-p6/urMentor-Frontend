@@ -5,9 +5,9 @@ import SplineNext from "@splinetool/react-spline/next";
 const SignUpp = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen w-screen">
-      {/* Left Container */}
+      {/* Left Container */}   
       <SplineComponent />
-      <div className="hidden w-full md:w-3/5 h-1/2 md:h-full bg-gray-900 text-white md:flex flex-col justify-center items-center p-5 ">
+      <div className="hidden z-10 w-full md:w-3/5 h-1/2 md:h-full bg-transparent text-white md:flex flex-col justify-center items-center p-5 ">
         
         <div className="absolute top-5 left-5 bg-black p-2 rounded-lg shadow-lg">
           <h3 className="text-xl font-bold text-white uppercase">UrMentor</h3>
