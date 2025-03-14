@@ -1,6 +1,6 @@
 const Login = () => {
   return (
-      <div className="flex h-screen w-scree bg-[rgb(242, 242, 246)]">
+      <div className="flex h-screen w-screen bg-[rgb(242, 242, 246)]">
           {/* Left Container */}
           <div className="w-3/5 min-h-[130%] bg-gray-900 text-white flex flex-col justify-center items-center bg-fixed">
               <div className="absolute top-5 left-5 bg-black p-2 rounded-lg shadow-lg">
